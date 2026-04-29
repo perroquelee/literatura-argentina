@@ -11,9 +11,17 @@ const sugerencias = [
   'el cuerpo femenino y el deseo',
 ];
 
+interface Libro {
+  titulo: string;
+  autor: string;
+  año: string;
+  propuesta: string;
+  por_que: string;
+}
+
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [libros, setLibros] = useState([]);
+  const [libros, setLibros] = useState<Libro[]>([]);
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState('');
 
