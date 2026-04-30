@@ -5,10 +5,10 @@ import { useState } from 'react';
 const sugerencias = [
   'el tiempo y la memoria',
   'lo extraño dentro de lo cotidiano',
-  'la violencia del Estado',
+  'las respuestas poco habituales',
   'la identidad y el doble',
   'el lenguaje como trampa',
-  'el cuerpo femenino y el deseo',
+  'el deseo y la obligación',
 ];
 
 interface Libro {
